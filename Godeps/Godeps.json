@@ -5,8 +5,8 @@
 	"Deps": [
 		{
 			"ImportPath": "github.com/Sirupsen/logrus",
-			"Comment": "v0.9.0-17-ga26f435",
-			"Rev": "a26f43589d737684363ff856c5a0f9f24b946510"
+			"Comment": "v0.10.0",
+			"Rev": "4b6ea7319e214d98c938f12692336f7ca9348d6b"
 		},
 		{
 			"ImportPath": "github.com/blang/semver",
@@ -15,43 +15,43 @@
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue/backend",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue/backend/closer",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue/backend/global",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue/backend/sockets/ajaxsocket",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue/backend/sockets/websocket",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue/log",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/desertbit/glue/utils",
-			"Comment": "1.8.0",
-			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+			"Comment": "1.8.1",
+			"Rev": "1296c8d62eaade6d0994767aa659863261626ef3"
 		},
 		{
 			"ImportPath": "github.com/garyburd/redigo/internal",
@@ -75,7 +75,7 @@
 		},
 		{
 			"ImportPath": "github.com/gorilla/websocket",
-			"Rev": "a622679ebd7a3b813862379232f645f8e690e43f"
+			"Rev": "e2e3d8414d0fbae04004f151979f4e27c6747fe7"
 		},
 		{
 			"ImportPath": "golang.org/x/sys/unix",

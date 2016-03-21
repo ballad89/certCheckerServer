@@ -33,7 +33,10 @@ func main() {
 	glueServer := glue.NewServer(glue.Options{
 		HTTPSocketType: glue.HTTPSocketTypeNone,
 		HTTPHandleURL:  "/ws/",
+		CheckOrigin:    func(r *http.Request) bool { return true },
 	})
+
+	defer glueServer.Release()
 
 	err = hub.InitHub(redisUrl)
 
