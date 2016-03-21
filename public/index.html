@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="public/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/bower_components/bootstrap-theme-white-plum/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/bower_components/datatables/media/css/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/style.css">
+        <title>certchecker</title>
+    </head>
+    <body>
+        
+        <script type="text/javascript" src="public/bower_components/jquery/dist/jquery.min.js" ></script>
+        <script type="text/javascript" src="public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="public/bower_components/datatables/media/js/jquery.dataTables.min.js" ></script>
+        <script type="text/javascript" src="public/bower_components/datatables/media/js/dataTables.bootstrap.min.js" ></script>
+        <script type="text/javascript" src="public/bower_components/handlebars/handlebars.min.js" ></script>
+        <script type="text/javascript" src="public/bower_components/glue/client/dist/glue.js" ></script>
+        <script id="row-template"type="text/x-handlebars-template">
+            <tr>
+                <td>{{cname}}</td>
+                <td>{{signingalgorithm}}</td>
+                <td>{{issuer}}</td>
+                <td>{{notafter}}</td>
+                <td>{{notbefore}}</td>
+                <td>{{servername}}</td>
+            </tr>
+        </script>
+        <script id="table-template" type="text/x-handlebars-template">
+            <table id="certsTable" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Cname</th>
+                        <th>SigningAlgorithm</th>
+                        <th>Issuer</th>
+                        <th>NotAfter</th>
+                        <th>NotBefore</th>
+                        <th>ServerName</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#each .}}
+                    <tr>
+                        <td>{{cname}}</td>
+                        <td>{{signingalgorithm}}</td>
+                        <td>{{issuer}}</td>
+                        <td>{{notafter}}</td>
+                        <td>{{notbefore}}</td>
+                        <td>{{servername}}</td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </script>
+        <script type="text/javascript" src="public/js/main.js"></script>
+        <div id="main" class="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav pull-right right-navbar-nav">
+                        <li class="nav-icon-btn">
+                            
+                                <a href="#notifications">
+                                <span class="glyphicon glyphicon-envelope"></span>
+                                <span id="notificationCount" data-count="0" class="badge"></span>
+                                </a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="certsTable-container" class="table-responsive">
+            </div>
+        </div>
+    </body>
+</html>

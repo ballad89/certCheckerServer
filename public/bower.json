@@ -1,0 +1,30 @@
+{
+  "name": "public",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "husayn arrah <husayn.arrah@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "bootstrap": "3.0.0",
+    "jquery": "^2.2.2"
+  },
+  "dependencies": {
+    "glue": "glue-socket#^1.8.1",
+    "datatables": "^1.10.11",
+    "handlebars": "^4.0.5",
+    "bootstrap-theme-white-plum": "^0.3.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2"
+  }
+}

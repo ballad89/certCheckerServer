@@ -1,0 +1,105 @@
+{
+	"ImportPath": "certcheckerServer",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v60",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.9.0-17-ga26f435",
+			"Rev": "a26f43589d737684363ff856c5a0f9f24b946510"
+		},
+		{
+			"ImportPath": "github.com/blang/semver",
+			"Comment": "v3.1.0",
+			"Rev": "aea32c919a18e5ef4537bbd283ff29594b1b0165"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue/backend",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue/backend/closer",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue/backend/global",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue/backend/sockets/ajaxsocket",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue/backend/sockets/websocket",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue/log",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/desertbit/glue/utils",
+			"Comment": "1.8.0",
+			"Rev": "302cdcb04e7c595254d3ae554c3beaac2ba7eb7d"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Rev": "4ed1111375cbeb698249ffe48dd463e9b0a63a7a"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Rev": "4ed1111375cbeb698249ffe48dd463e9b0a63a7a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "1c83b3eabd45b6d76072b66b746c20815fb2872d"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "ad4d7a5882b961e07e2626045eb995c022ac6664"
+		},
+		{
+			"ImportPath": "github.com/gorilla/schema",
+			"Rev": "ddf016c1034e9cfd3eb5b276f626c8f04d765f6f"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "a622679ebd7a3b813862379232f645f8e690e43f"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "9d4e42a20653790449273b3c85e67d6d8bae6e2e"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2015.10.05-1-g4d04138",
+			"Rev": "4d04138ffef2791c479c0c8bbffc30b34081b8d9"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2015.10.05-1-g4d04138",
+			"Rev": "4d04138ffef2791c479c0c8bbffc30b34081b8d9"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2015.10.05-1-g4d04138",
+			"Rev": "4d04138ffef2791c479c0c8bbffc30b34081b8d9"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2015.10.05-1-g4d04138",
+			"Rev": "4d04138ffef2791c479c0c8bbffc30b34081b8d9"
+		}
+	]
+}
